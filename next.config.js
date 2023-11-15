@@ -17,6 +17,7 @@ const nextConfig = {
   swcMinify: true,
   optimizeFonts: true,
   images: {
+    domains: ["res.cloudinary.com"],
     remotePatterns: [
       {
         protocol: "https",
