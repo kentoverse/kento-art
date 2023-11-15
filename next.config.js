@@ -21,10 +21,12 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
+        port: '',
+        pathname: '/loveletters-dev/**',
       },
     ],
     minimumCacheTTL: 1500000,
-  },
+  }
 };
 
 module.exports = nextConfig;
